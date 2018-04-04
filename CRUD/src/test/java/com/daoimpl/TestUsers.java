@@ -46,7 +46,7 @@ public class TestUsers {
 	@Test
 	public void test() {
 		Users newUser = new Users();
-		newUser.setUser_name("Hello");
+		newUser.setUserName("Hello");
 		newUser.setEmail("allam@gmail.com");
 		usersDao.saveOrUpdate(newUser);
 
