@@ -1,7 +1,10 @@
 com\controllers\UsersController.class
 com\daoimpl\UsersImpl.class
+com\entities\Contract.class
 com\servicesimpl\UsersServiceImpl.class
 com\controllers\HelloController.class
+com\entities\Ddate.class
 com\entities\Users.class
+com\entities\Child.class
 com\servicesapi\UsersService.class
 com\daoapi\UsersDao.class
