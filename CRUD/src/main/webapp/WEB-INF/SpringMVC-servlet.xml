@@ -10,7 +10,7 @@
   <bean 
    class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping" />
 	
-	
+   <bean class="com.controllers.ChildController" />
    <bean class="com.controllers.UsersController" /> 
    <bean class="com.controllers.HelloController" /> 
    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
