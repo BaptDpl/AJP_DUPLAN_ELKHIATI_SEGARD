@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.daoimpl.TestUsers" time="4.166" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="com.daoimpl.TestUsers" time="3.746" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\JEK\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4082177461945796630.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\JEK\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5524842531358404235.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\JEK\bin\nt;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files\elasticsearch-5.4.1\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Git\cmd;C:\Users\JEK\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\bin;C:\Program Files\elasticsearch-5.4.1\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Python27;C:\Users\JEK\AppData\Local\Yarn\bin;C:\Users\JEK\AppData\Roaming\Composer\vendor\bin;C:\Users\JEK\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\Users\JEK\Documents\Java\apache-maven-3.5.3\bin;;C:\WINDOWS\System32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.daoimpl.TestUsers" name="test" time="4.166">
+  <testcase classname="com.daoimpl.TestUsers" name="test" time="3.746">
     <error message="Duplicate entry &apos;allam@gmail.com&apos; for key &apos;email&apos;" type="org.hibernate.exception.ConstraintViolationException">org.hibernate.exception.ConstraintViolationException: Duplicate entry &apos;allam@gmail.com&apos; for key &apos;email&apos;
 	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:75)
 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
@@ -164,56 +164,56 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 </error>
     <system-out>Hibernate: insert into tests.Users (email, phone, user_name) values (?, ?, ?)
 </system-out>
-    <system-err>avr. 06, 2018 5:29:29 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
-INFOS: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Fri Apr 06 17:29:29 CEST 2018]; root of context hierarchy
-avr. 06, 2018 5:29:29 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+    <system-err>avr. 08, 2018 3:53:37 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Sun Apr 08 15:53:37 CEST 2018]; root of context hierarchy
+avr. 08, 2018 3:53:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
 INFOS: Loading XML bean definitions from class path resource [context.xml]
-avr. 06, 2018 5:29:31 PM org.hibernate.annotations.common.Version &lt;clinit&gt;
+avr. 08, 2018 3:53:39 PM org.hibernate.annotations.common.Version &lt;clinit&gt;
 INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
-avr. 06, 2018 5:29:31 PM org.hibernate.Version logVersion
+avr. 08, 2018 3:53:39 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {4.1.0.Final}
-avr. 06, 2018 5:29:31 PM org.hibernate.cfg.Environment &lt;clinit&gt;
+avr. 08, 2018 3:53:39 PM org.hibernate.cfg.Environment &lt;clinit&gt;
 INFO: HHH000206: hibernate.properties not found
-avr. 06, 2018 5:29:31 PM org.hibernate.cfg.Environment buildBytecodeProvider
+avr. 08, 2018 3:53:39 PM org.hibernate.cfg.Environment buildBytecodeProvider
 INFO: HHH000021: Bytecode provider name : javassist
-avr. 06, 2018 5:29:32 PM org.hibernate.dialect.Dialect &lt;init&gt;
+avr. 08, 2018 3:53:39 PM org.hibernate.dialect.Dialect &lt;init&gt;
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-avr. 06, 2018 5:29:32 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+avr. 08, 2018 3:53:39 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
 INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
-avr. 06, 2018 5:29:32 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory &lt;init&gt;
+avr. 08, 2018 3:53:39 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory &lt;init&gt;
 INFO: HHH000397: Using ASTQueryTranslatorFactory
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
 INFOS: Mapped &quot;{[/child/delete],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.ChildController.delete(com.entities.Child)
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-INFOS: Mapped &quot;{[/child/page],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView com.controllers.ChildController.getPage()
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-INFOS: Mapped &quot;{[/child/list],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.ChildController.getAll(com.entities.Child)
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
 INFOS: Mapped &quot;{[/child/saveOrUpdate],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.ChildController.getSaved(com.entities.Child)
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFOS: Mapped &quot;{[/child/page],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView com.controllers.ChildController.getPage()
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFOS: Mapped &quot;{[/child/list],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.ChildController.getAll(com.entities.Child)
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
 INFOS: Mapped &quot;{[/users/hello],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView com.controllers.HelloController.getPage()
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
 INFOS: Mapped &quot;{[/users/delete],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.UsersController.delete(com.entities.Users)
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-INFOS: Mapped &quot;{[/users/page],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView com.controllers.UsersController.getPage()
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-INFOS: Mapped &quot;{[/users/list],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.UsersController.getAll(com.entities.Users)
-avr. 06, 2018 5:29:32 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
 INFOS: Mapped &quot;{[/users/saveOrUpdate],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.UsersController.getSaved(com.entities.Users)
-avr. 06, 2018 5:29:33 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
-INFOS: Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Fri Apr 06 17:29:29 CEST 2018]; root of context hierarchy
-avr. 06, 2018 5:29:33 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
-INFOS: Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Fri Apr 06 17:29:29 CEST 2018]; root of context hierarchy
-avr. 06, 2018 5:29:33 PM org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFOS: Mapped &quot;{[/users/page],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView com.controllers.UsersController.getPage()
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFOS: Mapped &quot;{[/users/list],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; com.controllers.UsersController.getAll(com.entities.Users)
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFOS: Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Sun Apr 08 15:53:37 CEST 2018]; root of context hierarchy
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFOS: Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Sun Apr 08 15:53:37 CEST 2018]; root of context hierarchy
+avr. 08, 2018 3:53:40 PM org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
 INFOS: Mapped URL path [/resources/**] onto handler &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0&apos;
-avr. 06, 2018 5:29:33 PM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
+avr. 08, 2018 3:53:40 PM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
 INFOS: Using DataSource [org.apache.commons.dbcp.BasicDataSource@526e8108] of Hibernate SessionFactory for HibernateTransactionManager
-avr. 06, 2018 5:29:33 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+avr. 08, 2018 3:53:41 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
 WARN: SQL Error: 1062, SQLState: 23000
-avr. 06, 2018 5:29:33 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+avr. 08, 2018 3:53:41 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
 ERROR: Duplicate entry &apos;allam@gmail.com&apos; for key &apos;email&apos;
-avr. 06, 2018 5:29:33 PM org.springframework.context.support.ClassPathXmlApplicationContext doClose
-INFOS: Closing org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Fri Apr 06 17:29:29 CEST 2018]; root of context hierarchy
+avr. 08, 2018 3:53:41 PM org.springframework.context.support.ClassPathXmlApplicationContext doClose
+INFOS: Closing org.springframework.context.support.ClassPathXmlApplicationContext@2aaf7cc2: startup date [Sun Apr 08 15:53:37 CEST 2018]; root of context hierarchy
 </system-err>
   </testcase>
 </testsuite>

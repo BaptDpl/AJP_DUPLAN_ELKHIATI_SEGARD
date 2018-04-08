@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.daoimpl.TestUsers
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.238 sec <<< FAILURE!
-test(com.daoimpl.TestUsers)  Time elapsed: 4.166 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.83 sec <<< FAILURE!
+test(com.daoimpl.TestUsers)  Time elapsed: 3.746 sec  <<< ERROR!
 org.hibernate.exception.ConstraintViolationException: Duplicate entry 'allam@gmail.com' for key 'email'
 	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:75)
 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)

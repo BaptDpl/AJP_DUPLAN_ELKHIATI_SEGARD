@@ -13,13 +13,13 @@
         <input type="hidden" id="childId">
         Name: <input type="text" id="name" required="required" name="cname"><br>
         Age: <input type="number" id="age" required="required" name="age"><br>
-        Id: <input type="number" id="id" required="required" name="id"><br>
+        User_id: <input type="number" id="user_id" required="required" name="user_id"><br>
         <button onclick="submit();">Submit</button>
      
      
  
         <table id="table" border=1>
-            <tr> <th> Name </th> <th> Age </th> <th> Id </th> <th> Edit </th> <th> Delete </th> </tr>
+            <tr> <th> Name </th> <th> Age </th> <th> User_id </th> <th> Edit </th> <th> Delete </th> </tr>
          
         </table>
              
@@ -31,7 +31,7 @@
             $.ajax({
                 url:'saveOrUpdate',
                 type:'POST',
-                data:{childId:$("#childId").val(), cname:$('#name').val(), age:$('#age').val()},
+                data:{childId:$("#childId").val(), cname:$('#name').val(), age:$('#age').val(), userId:$('#user_id').val()},
                 success: function(response){
                         alert(response.message);
                         load();    
@@ -56,6 +56,7 @@
         $("#childId").val(data[index].childId);
         $("#name").val(data[index].cname);
         $("#age").val(data[index].age);
+        $("#user_id").val(data[index].user_id);
          
     }
      
@@ -71,7 +72,7 @@
                     $('.tr').remove();
                     for(i=0; i<response.data.length; i++){                  
                         //$("#table").append("<tr class='tr'> <td> "+response.data[i].user_name+" </td> <td> "+response.data[i].email+" </td> <td> <a href='#' onclick= edit("+i+");> Edit </a>  </td> </td> <td> <a href='#' onclick='delete_("+response.data[i].user_id+");'> Delete </a>  </td> </tr>");
-                        $("#table").append("<tr class='tr'> <td> "+response.data[i].cname+" </td> <td> "+response.data[i].age+" </td> <td> <a href='#' onclick= edit("+i+");> Edit </a>  </td> </td> <td> <a href='#' onclick='delete_("+response.data[i].childId+");'> Delete </a>  </td> </tr>");
+                        $("#table").append("<tr class='tr'> <td> "+response.data[i].cname+" </td> <td> "+response.data[i].age+" </td> <td> "+response.data[i].userId+" </td> <td> <a href='#' onclick= edit("+i+");> Edit </a>  </td> </td> <td> <a href='#' onclick='delete_("+response.data[i].childId+");'> Delete </a>  </td> </tr>");
                     }          
             },
         	error: function(err) {
