@@ -2,9 +2,14 @@ com\controllers\UsersController.class
 com\daoimpl\UsersImpl.class
 com\entities\Contract.class
 com\servicesimpl\UsersServiceImpl.class
+com\servicesapi\ContractService.class
+com\daoimpl\ContractImpl.class
+com\servicesapi\UsersService.class
+com\daoapi\UsersDao.class
+com\servicesimpl\ContractServiceImpl.class
 com\controllers\HelloController.class
+com\daoapi\ContractDao.class
 com\entities\Ddate.class
 com\entities\Users.class
 com\entities\Child.class
-com\servicesapi\UsersService.class
-com\daoapi\UsersDao.class
+com\controllers\ContractController.class

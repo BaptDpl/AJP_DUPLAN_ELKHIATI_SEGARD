@@ -13,6 +13,7 @@
 	
    <bean class="com.controllers.UsersController" /> 
    <bean class="com.controllers.HelloController" /> 
+   <bean class="com.controllers.ContractController" /> 
    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
       <property name="prefix">
        <value>/WEB-INF/views/</value>
