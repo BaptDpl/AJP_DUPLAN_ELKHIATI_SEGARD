@@ -13,11 +13,11 @@
    <bean class="com.controllers.ChildController" />
    <bean class="com.controllers.UsersController" /> 
    <bean class="com.controllers.HelloController" /> 
-
+<<<<<<< HEAD
    <bean class="com.controllers.ContractController" /> 
-
+=======
    <bean class="com.controllers.DdateController" /> 
-
+>>>>>>> bb203866466ea59a61794b0a19a7ca6a4add092a
    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
       <property name="prefix">
        <value>/WEB-INF/views/</value>
